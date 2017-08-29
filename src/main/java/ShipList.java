@@ -49,8 +49,7 @@ public class ShipList {
 
     public boolean isLost()
     /**
-     Detects when the player has lost all ships, and therefore
-     when the player has lost the game.
+     Detects when al ships have been sunked
     */
     {
         if (aircraft_carrier.isSunk() && battleship.isSunk() && destroyer.isSunk() && submarine.isSunk() && patrol_boat.isSunk())

@@ -20,7 +20,6 @@ public class Board {
          * Displays the board to the player.
          * O denotes where ships have not been hit
          * $ denotes where ships have been hit.
-         * X records enemy misses.
          */
         System.out.println();
         System.out.println("This is your board. O: your ships / $: where ships are hit / X: enemy misses");
@@ -42,11 +41,6 @@ public class Board {
                 if(board[x][y] == 6)
                 {
                     System.out.print("$");
-                }
-
-                if(board[x][y] == 11)
-                {
-                    System.out.print("X");
                 }
 
                 if(board[x][y] == 0)
